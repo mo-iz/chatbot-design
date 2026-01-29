@@ -294,7 +294,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
       }
 
     } catch (error) {
-      console.log('🔄 Digital Hakim: Switching to comprehensive analysis system:', error instanceof Error ? error.message : 'Processing alternative method');
+      console.log('🔄 Digital Hakeem: Switching to comprehensive analysis system:', error instanceof Error ? error.message : 'Processing alternative method');
       
       const errorSuggestions = language === 'ur' 
         ? ['سر درد', 'پیٹ میں درد', 'بخار', 'نیند کی کمی', 'کھانسی']

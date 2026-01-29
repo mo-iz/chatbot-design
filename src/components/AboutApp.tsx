@@ -14,12 +14,12 @@ export const AboutApp: React.FC<AboutAppProps> = ({ onBack }) => {
   const { language } = useLanguage();
 
   const translations = {
-    aboutApp: { en: 'About Digital Physician', ur: 'ڈیجیٹل فزیشن کے بارے میں' },
+    aboutApp: { en: 'About Digital Hakeem', ur: 'ڈیجیٹل فزیشن کے بارے میں' },
     subtitle: { en: 'Your trusted companion for Unani healing', ur: 'یونانی علاج کا آپ کا قابل اعتماد ساتھی' },
     appOverview: { en: 'Application Overview', ur: 'ایپلیکیشن کا جائزہ' },
-    whatIsApp: { en: 'What is Digital Physician?', ur: 'ڈیجیٹل فزیشن کیا ہے؟' },
+    whatIsApp: { en: 'What is Digital Hakeem?', ur: 'ڈیجیٹل فزیشن کیا ہے؟' },
     appDescription: { 
-      en: 'Digital Physician is a revolutionary AI-powered healthcare application that combines the ancient wisdom of Unani medicine with modern technology. Our app provides personalized health diagnosis, natural remedies, and holistic treatment plans based on the principles of temperament (Mizaj) and humoral theory (Akhlat).',
+      en: 'Digital Hakeem is a revolutionary AI-powered healthcare application that combines the ancient wisdom of Unani medicine with modern technology. Our app provides personalized health diagnosis, natural remedies, and holistic treatment plans based on the principles of temperament (Mizaj) and humoral theory (Akhlat).',
       ur: 'ڈیجیٹل فزیشن ایک انقلابی AI پاور ہیلتھ کیئر ایپلیکیشن ہے جو یونانی طب کی قدیم حکمت کو جدید ٹیکنالوجی کے ساتھ ملاتی ہے۔ ہماری ایپ مزاج اور اخلاط کے اصولوں کی بنیاد پر ذاتی صحت کی تشخیص، قدرتی علاج، اور مکمل علاجی منصوبے فراہم کرتی ہے۔'
     },
     keyFeatures: { en: 'Key Features', ur: 'اہم خصوصیات' },

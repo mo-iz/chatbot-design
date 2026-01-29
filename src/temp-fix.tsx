@@ -95,7 +95,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onShowTreatment, o
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#FDFBF7' }}>
       {/* Simple header */}
       <div className="p-4 text-center" style={{ backgroundColor: '#3E6B48' }}>
-        <h1 className="text-white">Digital Hakim - Test</h1>
+        <h1 className="text-white">Digital <Hakeem></Hakeem>m - Test</h1>
       </div>
 
       {/* Messages area */}

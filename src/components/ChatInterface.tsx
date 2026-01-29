@@ -339,7 +339,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onShowTreatment, o
       }
 
     } catch (error) {
-      console.log('🔄 Digital Hakim: Switching to comprehensive analysis system:', error instanceof Error ? error.message : 'Processing alternative method');
+      console.log('🔄 Digital Hakeem: Switching to comprehensive analysis system:', error instanceof Error ? error.message : 'Processing alternative method');
       
       // Even in error, provide helpful and encouraging response
       const errorSuggestions = language === 'ur' 
@@ -413,7 +413,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onShowTreatment, o
         throw new Error('AI analysis returned no results');
       }
     } catch (error) {
-      console.log('🔄 Digital Hakim: Using built-in comprehensive analysis system:', error instanceof Error ? error.message : 'Switching to local analysis');
+      console.log('🔄 Digital Hakeem: Using built-in comprehensive analysis system:', error instanceof Error ? error.message : 'Switching to local analysis');
       
       // Even if AI fails, provide a comprehensive fallback response
       const fallbackCondition = await openAIService.generateUnaniDiagnosis(userInput, language);
@@ -639,7 +639,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({ onShowTreatment, o
         throw new Error('Image analysis failed');
       }
     } catch (error) {
-      console.log('📸 Digital Hakim: Image received, using text-based analysis system:', error instanceof Error ? error.message : 'Processing with alternative method');
+      console.log('📸 Digital Hakeem: Image received, using text-based analysis system:', error instanceof Error ? error.message : 'Processing with alternative method');
       
       // Fallback response for image analysis
       const fallbackResponse: Message = {

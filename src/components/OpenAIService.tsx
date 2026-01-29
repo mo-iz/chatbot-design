@@ -35,7 +35,7 @@ export class OpenAIService {
   ): Promise<MedicalCondition | null> {
     // Check if API key is properly configured
     if (this.apiKey === 'YOUR_OPENAI_API_KEY_HERE' || !this.apiKey) {
-      console.log('🤖 Digital Hakim: Using built-in comprehensive analysis system.');
+      console.log('🤖 Digital Hakeem: Using built-in comprehensive analysis system.');
       return this.getComprehensiveMockResponse(symptoms, language);
     }
 
@@ -94,7 +94,7 @@ export class OpenAIService {
   ): Promise<MedicalCondition | null> {
     // Check if API key is properly configured
     if (this.apiKey === 'YOUR_OPENAI_API_KEY_HERE' || !this.apiKey) {
-      console.log('📸 Digital Hakim: Using built-in image analysis system.');
+      console.log('📸 Digital Hakeem: Using built-in image analysis system.');
       return this.getMockImageAnalysis(additionalSymptoms, language);
     }
 

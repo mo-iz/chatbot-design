@@ -9,11 +9,11 @@ interface LanguageContextType {
 const translations = {
   en: {
     // Splash Screen
-    digitalHakim: "Digital Physician",
-    digitalPhysician: "Digital Physician",
+    digitalHakim: "Digital Hakeem",
+    digitalPhysician: "Digital Hakeem",
     
     // Onboarding
-    yourDigitalHakim: "Your Digital Physician",
+    yourDigitalHakim: "Your Digital Hakeem",
     welcomeTagline: "Experience the wisdom of Unani medicine in modern healthcare",
     diagnoseSymptomsTitle: "Diagnose Symptoms",
     diagnoseSymptomsDesc: "Get accurate diagnosis based on Unani principles",
@@ -29,7 +29,7 @@ const translations = {
     // Chat Interface
     typeMessage: "Type your message...",
     send: "Send",
-    whatIsProblem: "Hello! I'm your friendly Digital Hakim. I'm here to help you feel better using traditional Unani medicine wisdom. What's bothering you today? Tell me about any symptoms, pain, or health concerns you have. I'll understand whatever way you explain it!",
+    whatIsProblem: "Hello! I'm your friendly Digital Hakeem. I'm here to help you feel better using traditional Unani medicine wisdom. What's bothering you today? Tell me about any symptoms, pain, or health concerns you have. I'll understand whatever way you explain it!",
     hotColdNature: "Do you feel more hot or cold nature in your body?",
     moreSymptomsQuestion: "Please describe any other symptoms you're experiencing",
     

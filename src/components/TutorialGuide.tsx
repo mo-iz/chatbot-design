@@ -39,7 +39,7 @@ const tutorialSteps: TutorialStep[] = [
   {
     id: 'welcome',
     title: {
-      en: 'Welcome to Digital Physician!',
+      en: 'Welcome to Digital Hakeem!',
       ur: 'ڈیجیٹل حکیم میں خوش آمدید!'
     },
     description: {
